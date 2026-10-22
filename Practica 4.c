@@ -11,7 +11,7 @@ int main()
     {
         printf("\nIngrese la calificación del alumn %d\n", indice+1);
         scanf("%f",&realCalif);
-        realPromedio += realCalif;
+        realPromedio= realPromedio + realCalif;
     }
     printf("\nEl promedio de las calificaciones ingresadas es: %f\n",
     realPromedio/enteroNumAlumnos);
